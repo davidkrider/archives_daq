@@ -1,4 +1,4 @@
-This is a collection of programs to automate the digitazation of cassette tapes.
+This is a collection of programs to automate the digitazation of cassette tapes, per this writeup: https://davidkrider.com/tape-digitizer/
 
 `digitize4.c` will start a (mono) tape duplicator, though a digital output (by way of a powered relay), wait for it to double check the tape is rewound through a digital input, then sample the signals as it "duplicates" the tape to an empty bay, write a WAV file for each side of the tape (side B will be reversed of course), and then stop.
 
